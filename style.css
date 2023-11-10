@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    box-sizing: border-box;
 }
 
 .menu1 {
@@ -9,9 +9,9 @@
     font-size: small;
 }
 
-img {
+.img {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .menu2 {
@@ -34,7 +34,6 @@ img {
 .Contenedor {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .columna {
@@ -69,10 +68,10 @@ img {
 
 .piedepagina1 {
     padding: 10px;
-    margin: 0 10px 30px
+    margin: 0 10px 30px;
+    text-decoration: none;
+    color: #c2c2c2;
+    font-size: medium;
+    font-family: serif; 
 }
 
-.piedepagina2 {
-    display: flex;
-    justify-content: space-evenly
-}
